@@ -1,0 +1,3 @@
+# imageUploader
+
+dependencies = {'Flask'}
