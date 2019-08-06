@@ -17,7 +17,7 @@ def index():
         filename = img.filename    # file name of said object^^
 
         destination = '/'.join([target, filename])
-        img.save(destination)    # saves uploaded file to dest "temp.jpg"
+        img.save(destination)    # saves uploaded file to specified destination
 
         return render_template("displayUpload.html", image_name=filename)
     else:
